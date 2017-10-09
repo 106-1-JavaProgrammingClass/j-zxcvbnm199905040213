@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class Ch13 {
+public class Ch08 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in) ;
-        char a = scn.next().charAt(0);
-        System.out.println((int)a);
+        float v1 = scn.nextFloat() ;
+        System.out.println((int)(v1*0.26418*10)/10f);
+
     }
 }

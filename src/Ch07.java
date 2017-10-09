@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Ch17 {
+public class Ch07 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int a = scn.nextInt();
-        System.out.println(Math.sqrt((double)a)*10);
+        String v1 = scn.nextLine() ;
+        System.out.println(v1.toLowerCase());
     }
 }
